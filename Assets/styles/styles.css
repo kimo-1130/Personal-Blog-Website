@@ -88,6 +88,10 @@ html {
   z-index: 3;
   transform: scale(0);
   background-color: #0f1729a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .go-up-active {
   opacity: 1;
@@ -326,6 +330,17 @@ header li a:hover {
   background-color: var(--border-color);
   border-radius: 50%;
   border: 1px solid var(--main-color);
+  color: 1px solid var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.next i,
+.prev i,
+.go-up i {
+  color: var(--main-color);
 }
 .next {
   margin-left: 10px;
