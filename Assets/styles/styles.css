@@ -330,7 +330,6 @@ header li a:hover {
   background-color: var(--border-color);
   border-radius: 50%;
   border: 1px solid var(--main-color);
-  color: 1px solid var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;
